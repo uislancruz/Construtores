@@ -9,4 +9,9 @@ public class Produto {
         this.nome = nome;
         this.quantidadeEstoque = QUANTIDADE_ESTOQUE_INICIAL;
     }
+
+    Produto(String nome, int estoqueInicial){
+        this.nome = nome;
+        this.quantidadeEstoque = estoqueInicial;
+    }
 }
