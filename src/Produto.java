@@ -8,8 +8,10 @@ public class Produto {
     int quantidadeEstoque;
 
     Produto(){
-        this.nome = "Sem nome";
-        this.quantidadeEstoque = QUANTIDADE_ESTOQUE_INICIAL;
+        this("Sem nome");
+
+        //this.nome = "Sem nome";
+        //this.quantidadeEstoque = QUANTIDADE_ESTOQUE_INICIAL;
     }
 
     Produto(String nome){
